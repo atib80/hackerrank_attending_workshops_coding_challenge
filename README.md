@@ -41,7 +41,9 @@ Input from stdin is handled by the locked code in the editor; you simply need to
 Constraints:
 
 1 <= N <= 10E+5
+
 0 <= start_time <= 10E+5
+
 0 <= duration <= 10E+5
 
 Output format:
