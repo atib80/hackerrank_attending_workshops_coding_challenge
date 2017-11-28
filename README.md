@@ -1,4 +1,3 @@
-# hackerrank_attending_workshops_coding_challenge
 
 Hackerrank -> C++ Other Concepts -> Attending Workshops
 
