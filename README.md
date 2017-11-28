@@ -53,9 +53,7 @@ Your CalculateMaxWorkshops function must return maximum number of non-overlappin
 Sample input:
 
 6
-
 1 3 0 5 5 8
-
 1 1 6 2 4 1
 
 Sample output
