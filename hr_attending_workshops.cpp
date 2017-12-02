@@ -48,7 +48,7 @@ struct Available_Workshops {
 
 Available_Workshops* initialize(const int* start_time, const int* duration, const int n) {
 
-	Available_Workshops* ws = new Available_Workshops(n);
+	Available_Workshops* ws = new (nothrow) Available_Workshops(n);
 
 	if (!ws) return nullptr;
 
@@ -140,11 +140,11 @@ int main(int argc, char **argv) {
 	cin >> n;
 
 	// create arrays of unknown size n
-	int* start_time = new int[n];
+	int* start_time = new (nothrow) int[n];
 
 	if (!start_time) return 1;
 
-	int* duration = new int[n];
+	int* duration = new (nothrow) int[n];
 
 	if (!duration) {
 
